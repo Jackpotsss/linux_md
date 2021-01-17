@@ -1,0 +1,494 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>SELinux · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="READ-ME.html" />
+    
+    
+    <link rel="prev" href="FTP 服务.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Linux.html">
+            
+                <a href="Linux.html">
+            
+                    
+                    Linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="文件权限与目录.html">
+            
+                <a href="文件权限与目录.html">
+            
+                    
+                    文件权限与目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="资源监控与管理.html">
+            
+                <a href="资源监控与管理.html">
+            
+                    
+                    资源监控与管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="进程管理.html">
+            
+                <a href="进程管理.html">
+            
+                    
+                    进程管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="系统服务.html">
+            
+                <a href="系统服务.html">
+            
+                    
+                    系统服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="磁盘与文件系统.html">
+            
+                <a href="磁盘与文件系统.html">
+            
+                    
+                    磁盘与文件系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Vim 编辑器.html">
+            
+                <a href="Vim 编辑器.html">
+            
+                    
+                    Vim 编辑器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="网络.html">
+            
+                <a href="网络.html">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="软件管理.html">
+            
+                <a href="软件管理.html">
+            
+                    
+                    软件管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="Shell 和 Bash.html">
+            
+                <a href="Shell 和 Bash.html">
+            
+                    
+                    Shell 和 Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="用户权限管理.html">
+            
+                <a href="用户权限管理.html">
+            
+                    
+                    用户权限管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="任务管理.html">
+            
+                <a href="任务管理.html">
+            
+                    
+                    任务管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="计划任务.html">
+            
+                <a href="计划任务.html">
+            
+                    
+                    计划任务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="日志文件.html">
+            
+                <a href="日志文件.html">
+            
+                    
+                    日志文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="运维和调优.html">
+            
+                <a href="运维和调优.html">
+            
+                    
+                    运维和调优
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="FTP 服务.html">
+            
+                <a href="FTP 服务.html">
+            
+                    
+                    FTP 服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.18" data-path="SELinux.html">
+            
+                <a href="SELinux.html">
+            
+                    
+                    SELinux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="READ-ME.html">
+            
+                <a href="READ-ME.html">
+            
+                    
+                    READ-ME
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >SELinux</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="selinux">SELinux</h1>
+<p>&#x5B89;&#x5168;&#x589E;&#x5F3A;Linux ,&#x662F;Linux&#x5185;&#x6838;&#x7684;&#x4E00;&#x4E2A;&#x5B89;&#x5168;&#x5B50;&#x6A21;&#x5757;. </p>
+<p>SELinux &#x652F;&#x6301;&#x4E09;&#x79CD;&#x6A21;&#x5F0F;:</p>
+<ul>
+<li>&#x5F3A;&#x5236;&#x6A21;&#x5F0F;   enforcing</li>
+<li>&#x5BBD;&#x5BB9;&#x6A21;&#x5F0F;  permissive</li>
+<li>&#x5173;&#x95ED;   disabled</li>
+</ul>
+<p>&#x4F7F;&#x7528; sestatus &#x547D;&#x4EE4;&#x67E5;&#x770B; SELinux &#x7684;&#x8FD0;&#x884C;&#x72B6;&#x6001;:</p>
+<pre><code class="lang-shell">[root@localhost vsftpd]# sestatus
+SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+SELinux root directory:         /etc/selinux
+Loaded policy name:             targeted
+Current mode:                   enforcing
+Mode from config file:          enforcing
+Policy MLS status:              enabled
+Policy deny_unknown status:     allowed
+Max kernel policy version:      28
+</code></pre>
+<pre><code class="lang-shell"># &#x4FEE;&#x6539;selinux&#x914D;&#x7F6E;&#x6587;&#x4EF6;
+cat /etc/selinux/config
+</code></pre>
+<h2 id="&#x6C38;&#x4E45;&#x5173;&#x95ED;-selinux">&#x6C38;&#x4E45;&#x5173;&#x95ED; SELinux</h2>
+<pre><code class="lang-shell"># 1.&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;
+vi /etc/selinux/config  
+# 2.&#x628A; SELINUX &#x9009;&#x9879;&#x4FEE;&#x6539;&#x4E3A; disabled
+SELINUX=disabled
+# 3.&#x91CD;&#x542F;&#x670D;&#x52A1;&#x5668;
+reboot
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="FTP 服务.html" class="navigation navigation-prev " aria-label="Previous page: FTP 服务">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="READ-ME.html" class="navigation navigation-next " aria-label="Next page: READ-ME">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"SELinux","level":"1.18","depth":1,"next":{"title":"READ-ME","level":"1.19","depth":1,"path":"target/READ-ME.md","ref":"./target/READ-ME.md","articles":[]},"previous":{"title":"FTP 服务","level":"1.17","depth":1,"path":"target/FTP 服务.md","ref":"./target/FTP 服务.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"target/SELinux.md","mtime":"2021-01-17T10:35:42.151Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-17T10:36:22.970Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
